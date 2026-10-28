@@ -60,13 +60,13 @@ body {
   display: inline-block;
   border-radius: 999px;
   padding: 13px 28px;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 700;
   text-decoration: none;
   transition: transform 0.15s ease, background 0.15s ease;
 }
 .btn:hover { transform: translateY(-1px); }
-.btn--small { background: var(--navy); color: #fff; padding: 10px 22px; font-size: 14px; }
+.btn--small { background: var(--navy); color: #fff; padding: 10px 12px; font-size: 12px; }
 .btn--small:hover { background: var(--navy-2); }
 .btn--light { background: #fff; color: var(--navy); }
 .btn--cta { background: var(--gold); color: var(--navy); padding: 15px 34px; font-size: 16px; box-shadow: 0 8px 20px rgba(201, 162, 39, 0.35); }
