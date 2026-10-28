@@ -130,7 +130,7 @@ body {
   padding: 28px 28px 22px;
   position: relative;
   z-index: 2;
-  margin-bottom: -110px; /* <-- the overflow: card extends past the hero */
+  margin-bottom: -1000px; /* <-- the overflow: card extends past the hero */
 }
 
 .form-heading { font-family: "Fraunces", Georgia, serif; font-size: 26px; margin: 0 0 4px; color: var(--navy); }
@@ -236,9 +236,9 @@ body {
 @media (max-width: 900px) {
   .hero { padding: 48px 0 110px; }
   .hero-inner { grid-template-columns: 1fr; gap: 32px; }
-  .hero-title { font-size: 38px; }
-  .hero-form { margin-bottom: -70px; }
-  .section--after-hero { padding-top: 120px; }
+  .hero-title { font-size: 28px; }
+  .hero-form { margin-bottom: -600px; }
+  .section--after-hero { padding-top: 70px; }
   .card-grid, .footer-grid { grid-template-columns: 1fr; }
-  .section-title { font-size: 30px; }
+  .section-title { font-size: 18px; }
 }
