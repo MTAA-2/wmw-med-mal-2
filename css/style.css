@@ -130,15 +130,14 @@ body {
   padding: 28px 28px 22px;
   position: relative;
   z-index: 2;
-  margin-bottom: -1000;
-   overflow: visible; /* <-- the overflow: card extends past the hero */
+  margin-bottom: 0; /* <-- the overflow: card extends past the hero */
 }
 
 .form-heading { font-family: "Fraunces", Georgia, serif; font-size: 26px; margin: 0 0 4px; color: var(--navy); }
 .form-sub { color: var(--muted); margin: 0 0 18px; font-size: 15px; }
 
 .form-frame {
-  height: 520px;
+  height: 900px;
   max-height: 72vh;
   overflow: auto; /* <-- auto overflow: tall embeds scroll inside the card */
   border: 1px solid var(--line);
