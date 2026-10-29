@@ -137,12 +137,11 @@ body {
 .form-sub { color: var(--muted); margin: 0 0 18px; font-size: 15px; }
 
 .form-frame {
-  height: 900px;
-  max-height: 172vh;
+  height: 530px;
+  max-height: 72vh;
   overflow: auto; /* <-- auto overflow: tall embeds scroll inside the card */
   border: 1px solid var(--line);
   border-radius: 12px;
-
   background: #fff;
 }
 
