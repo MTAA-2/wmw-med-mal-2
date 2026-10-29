@@ -237,8 +237,8 @@ body {
   .hero { padding: 48px 0 110px; }
   .hero-inner { grid-template-columns: 1fr; gap: 32px; }
   .hero-title { font-size: 28px; }
-  .hero-form { margin-bottom: -600px; }
-  .section--after-hero { padding-top: 70px; }
+  .hero-form { margin-bottom: 1px; }
+  .section--after-hero { padding-top: 20px; }
   .card-grid, .footer-grid { grid-template-columns: 1fr; }
   .section-title { font-size: 18px; }
   .hero-sub {display: none}
