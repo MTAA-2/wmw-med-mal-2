@@ -161,7 +161,7 @@ body {
 .section { padding: 76px 0; }
 
 /* First section under the hero needs clearance for the card */
-.section--after-hero { padding-top: 170px; }
+.section--after-hero { padding-top: 50px; }
 
 .section-kicker {
   color: var(--gold);
